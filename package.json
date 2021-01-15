@@ -1,0 +1,14 @@
+{
+  "name": "gateware-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node ./node_modules/gateware-ts/bin/testware.js ./one-shot-debounce-tb.ts"
+  },
+  "dependencies": {
+    "gateware-ts": "^0.0.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}

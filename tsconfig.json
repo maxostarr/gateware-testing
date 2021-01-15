@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020", "dom"],
+    "types": ["node"],
+    "sourceMap": true,
+
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "moduleResolution": "node"
+  },
+
+  "include": ["./src/**/*", "./vendor-modules/**/*", "./testware/**/*"],
+  "exclude": ["./dist", "./node_modules", "./test"]
+}
