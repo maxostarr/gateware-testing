@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "node ./node_modules/gateware-ts/bin/testware.js ./one-shot-debounce-tb.ts"
+    "test": "node ./node_modules/gateware-ts/bin/testware.js ./test-testbench.ts"
   },
   "dependencies": {
     "gateware-ts": "^0.0.4",
